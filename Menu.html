@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="application/javascript" src="Validacion.js"></script>
+    <script type="application/javascript" src="Login.html"></script>
     <style>
         body{
             text-align: center;
@@ -107,7 +109,7 @@
     <link rel="shortcut icon" href="img/icono.png">
     <title>Viaje</title>
 </head>
-<body>
+<body onload="validando()">
 <div id="menu">
     <a href="Alistemos.html"><button>¡¿Que debemos alistar?!</button></a><br><br>
     <a><button>¿Cuando Salimos?</button></a><br><br>
@@ -158,7 +160,19 @@
 
     function cerrar() {
         window.location.href="Regreso.html";
+        dia = null;
     }
+
+    function validando() {
+        var ani = dia;
+        alert(consulta());
+        /*if (ani !== "2016-01-28"){
+            window.location.href = "Login.html";
+        }else {
+
+        }*/
+    }
+
 </script>
 </body>
 </html>
