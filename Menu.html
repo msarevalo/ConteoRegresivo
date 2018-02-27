@@ -58,15 +58,15 @@
 
         .popup h1{
             color:#076fa9;
-            margin-left: 7px;
-            font-weight:200;
             font-size:0.52em;
             position:relative;
+            line-height:2em;
             left:-200%;
+            top: 30%;
             -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
             transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
             -webkit-transition-delay:900ms;
-            transition-delay:900ms;
+            transition-delay:50ms;
         }
 
         .popup .close{
@@ -81,17 +81,6 @@
             transition:.5s;
         }
 
-        .popup .boton{
-            position:absolute;
-            top:-500px;
-            right:15px;
-            font-size:.9em;
-            font-weight:lighter;
-            cursor:pointer;
-            color:#076fa9;
-            -webkit-transition:.5s;
-            transition:.5s;
-        }
         .overlay{
             overflow-x:hidden;
             overflow-y:hidden;
@@ -129,10 +118,10 @@
 
 <div class="popup">
     <h1>
-        ♡Aun no hemos viajado mi amor, pero espera nuestras fotos♡
+        ♡Aun no hemos viajado mi amor,<br>pero espera nuestras fotos♡
     </h1>
     <span class="close">
-    <i class="fa fa-close" onclick="cerrar()">X</i>
+    <strong><i class="fa fa-close" onclick="cerrar()">X</i></strong>
   </span>
 </div>
 <script>
