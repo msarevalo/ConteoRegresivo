@@ -2,7 +2,6 @@
     <style>
         body{
             text-align: center;
-            background: #0085cf;
             background-image: url("img/fondo.jpg");
             background-repeat: no-repeat, repeat;
             background-size: cover;
@@ -15,6 +14,27 @@
             font-weight: 100;
             font-size: 40px;
             margin: 40px 0px 20px;
+            text-shadow: -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+        }
+
+        #conteo{
+            position: relative;
+            top: 135px;
+        }
+
+        #conteo button {
+            border: none;
+            background: #3a7999;
+            color: #f2f2f2;
+            padding: 9px;
+            font-size: 18px;
+            border-radius: 5px;
+            position: relative;
+            box-sizing: border-box;
+            transition: all 10ms ease;
         }
 
         #reloj{
@@ -31,7 +51,6 @@
             border-radius: 3px;
             background: #076fa9;
             display: inline-block;
-
         }
 
         #reloj div > span{
@@ -48,6 +67,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 </head>
 
+<div id="conteo">
 <h1>Tiempo faltante para el viaje:</h1>
 <div id="reloj">
     <div>
@@ -70,6 +90,8 @@
         <span class="segundos"></span>
         <div class="texto">Segundos</div>
     </div>
+</div><!--
+    <br><br><button>Preparate!</button>-->
 </div>
 
 <script>
