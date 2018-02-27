@@ -82,7 +82,7 @@
     <link rel="shortcut icon" href="img/icono.png">
     <title>Viaje</title>
 </head>
-<body>
+<body onload="noVolver()">
 <div id="aniversario">
     <div class="pop-up">
         <section>
@@ -115,6 +115,11 @@
             alert($(this).val());
         });*/
 
+    }
+    function noVolver() {
+        window.location.hash="no-back-button";
+        window.location.hash="Again-No-back-button" //chrome
+        window.onhashchange=function(){window.location.hash="";}
     }
 
 </script>
