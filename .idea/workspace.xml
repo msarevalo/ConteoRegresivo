@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e14176d2-3e46-4868-b789-6c25aef514b3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/Login.html" afterPath="$PROJECT_DIR$/Login.html" />
+      <change beforePath="$PROJECT_DIR$/Menu.html" afterPath="$PROJECT_DIR$/Menu.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,21 +27,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Menu.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Menu.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="65" column="25" lean-forward="false" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+            <state relative-caret-position="142">
+              <caret line="180" column="38" lean-forward="true" selection-start-line="180" selection-start-column="38" selection-end-line="180" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Login.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            <state relative-caret-position="272">
+              <caret line="46" column="26" lean-forward="false" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="26" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#strong#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -102,9 +103,9 @@
         <option value="$PROJECT_DIR$/prueba.html" />
         <option value="$PROJECT_DIR$/Maleta.html" />
         <option value="$PROJECT_DIR$/Regreso.html" />
-        <option value="$PROJECT_DIR$/Menu.html" />
         <option value="$PROJECT_DIR$/Alistemos.html" />
         <option value="$PROJECT_DIR$/Login.html" />
+        <option value="$PROJECT_DIR$/Menu.html" />
       </list>
     </option>
   </component>
@@ -114,7 +115,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -217,16 +218,15 @@
       <workItem from="1519709728626" duration="147000" />
       <workItem from="1519710054426" duration="39000" />
       <workItem from="1519740787729" duration="5848000" />
-      <workItem from="1519751112378" duration="31692000" />
+      <workItem from="1519751112378" duration="33385000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48372000" />
+    <option name="totallyTimeSpent" value="50065000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -364,14 +364,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="65" column="25" lean-forward="false" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Regreso.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -392,11 +384,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        <state relative-caret-position="272">
+          <caret line="46" column="26" lean-forward="false" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="26" />
           <folding>
             <element signature="n#style#0;n#span#0;n#strong#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="180" column="38" lean-forward="true" selection-start-line="180" selection-start-column="38" selection-end-line="180" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
