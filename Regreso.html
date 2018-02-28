@@ -25,6 +25,10 @@
             top: 80px;
         }
 
+        #conteo #cer{
+            background: #f44336bf;
+        }
+
         #conteo button {
             border: none;
             background: #076fa9;
@@ -63,6 +67,7 @@
             padding-top: 5px;
             font-size: 16px;
         }
+
     </style>
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -72,7 +77,9 @@
 </head>
 <body  onload="noVolver()">
 <div>
-    <audio src="https://github.com/msarevalo/ConteoRegresivo/blob/master/mp3/La_Vuelta_Al_Mundo_Calle_13.mp3" type="mp3" autoplay="true"></audio>
+    <audio type="mp3" autoplay="true">
+        <source src="https://avarapps.000webhostapp.com/La_Vuelta_Al_Mundo_Calle_13.mp3">
+    </audio>
 </div>
 <div id="conteo">
 <h1>Prepárate Mi Vida!<br>Tiempo faltante para el viaje:</h1>
@@ -99,7 +106,7 @@
     </div>
 </div>
     <br><br><br><a href="Menu.html"><button>¡Alistemos Todo!</button></a>
-    <br><br><br><a href="Login.html"><button>Cerrar</button></a>
+    <br><br><br><a href="Login.html"><button id="cer">Cerrar</button></a>
 </div>
 
 <script>
