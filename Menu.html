@@ -2,8 +2,6 @@
 <html lang="en">
 <head>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="application/javascript" src="Validacion.js"></script>
-    <script type="application/javascript" src="Login.html"></script>
     <style>
         body{
             text-align: center;
@@ -104,12 +102,42 @@
         }
 
     </style>
+    <script>
+        function includeHTML() {
+            var z, i, elmnt, file, xhttp;
+            /*loop through a collection of all HTML elements:*/
+            z = document.getElementsByTagName("*");
+            for (i = 0; i < z.length; i++) {
+                elmnt = z[i];
+                /*search for elements with a certain atrribute:*/
+                file = elmnt.getAttribute("w3-include-html");
+                if (file) {
+                    /*make an HTTP request using the attribute value as the file name:*/
+                    xhttp = new XMLHttpRequest();
+                    xhttp.onreadystatechange = function() {
+                        if (this.readyState == 4) {
+                            if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+                            if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+                            /*remove the attribute, and call this function once more:*/
+                            elmnt.removeAttribute("w3-include-html");
+                            includeHTML();
+                        }
+                    }
+                    xhttp.open("GET", file, true);
+                    xhttp.send();
+                    /*exit the function:*/
+                    return;
+                }
+            }
+        }
+    </script>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=0.7, user-scalable=no">
     <link rel="shortcut icon" href="img/icono.png">
     <title>Viaje</title>
 </head>
-<body onload="validando()">
+<body>
+<div w3-include-html="prueba.html"></div>
 <div id="menu">
     <a href="Alistemos.html"><button>¡¿Que debemos alistar?!</button></a><br><br>
     <a><button>¿Cuando Salimos?</button></a><br><br>
@@ -162,17 +190,7 @@
         window.location.href="Regreso.html";
         dia = null;
     }
-
-    function validando() {
-        var ani = dia;
-        alert(consulta());
-        /*if (ani !== "2016-01-28"){
-            window.location.href = "Login.html";
-        }else {
-
-        }*/
-    }
-
+    includeHTML();
 </script>
 </body>
 </html>
