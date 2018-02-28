@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e14176d2-3e46-4868-b789-6c25aef514b3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Alistemos.html" afterPath="$PROJECT_DIR$/Alistemos.html" />
+      <change beforePath="$PROJECT_DIR$/Login.html" afterPath="$PROJECT_DIR$/Login.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Login.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Login.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="93" lean-forward="false" selection-start-line="3" selection-start-column="93" selection-end-line="3" selection-end-column="93" />
+            <state relative-caret-position="68">
+              <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#strong#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -48,7 +48,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Alistemos.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Alistemos.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Alistemos.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="397">
@@ -99,12 +99,12 @@
       <list>
         <option value="$PROJECT_DIR$/global.js" />
         <option value="$PROJECT_DIR$/Validacion.js" />
-        <option value="$PROJECT_DIR$/Login.html" />
         <option value="$PROJECT_DIR$/prueba.html" />
         <option value="$PROJECT_DIR$/Maleta.html" />
         <option value="$PROJECT_DIR$/Regreso.html" />
         <option value="$PROJECT_DIR$/Menu.html" />
         <option value="$PROJECT_DIR$/Alistemos.html" />
+        <option value="$PROJECT_DIR$/Login.html" />
       </list>
     </option>
   </component>
@@ -217,12 +217,12 @@
       <workItem from="1519709728626" duration="147000" />
       <workItem from="1519710054426" duration="39000" />
       <workItem from="1519740787729" duration="5848000" />
-      <workItem from="1519751112378" duration="31070000" />
+      <workItem from="1519751112378" duration="31692000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47750000" />
+    <option name="totallyTimeSpent" value="48372000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
@@ -340,16 +340,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="93" lean-forward="false" selection-start-line="3" selection-start-column="93" selection-end-line="3" selection-end-column="93" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#strong#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prueba.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -396,6 +386,16 @@
           <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#strong#0;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
