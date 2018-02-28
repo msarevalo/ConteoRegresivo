@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e14176d2-3e46-4868-b789-6c25aef514b3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Alistemos.html" afterPath="$PROJECT_DIR$/Alistemos.html" />
       <change beforePath="$PROJECT_DIR$/Menu.html" afterPath="$PROJECT_DIR$/Menu.html" />
-      <change beforePath="$PROJECT_DIR$/Regreso.html" afterPath="$PROJECT_DIR$/Regreso.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,21 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Regreso.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Regreso.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Regreso.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
+            <state relative-caret-position="414">
               <caret line="84" column="5" lean-forward="false" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Menu.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Menu.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="155" column="61" lean-forward="false" selection-start-line="155" selection-start-column="61" selection-end-line="155" selection-end-column="61" />
+            <state relative-caret-position="238">
+              <caret line="65" column="25" lean-forward="false" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -105,8 +103,8 @@
         <option value="$PROJECT_DIR$/prueba.html" />
         <option value="$PROJECT_DIR$/Maleta.html" />
         <option value="$PROJECT_DIR$/Alistemos.html" />
-        <option value="$PROJECT_DIR$/Menu.html" />
         <option value="$PROJECT_DIR$/Regreso.html" />
+        <option value="$PROJECT_DIR$/Menu.html" />
       </list>
     </option>
   </component>
@@ -219,12 +217,12 @@
       <workItem from="1519709728626" duration="147000" />
       <workItem from="1519710054426" duration="39000" />
       <workItem from="1519740787729" duration="5848000" />
-      <workItem from="1519751112378" duration="30025000" />
+      <workItem from="1519751112378" duration="30175000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46705000" />
+    <option name="totallyTimeSpent" value="46855000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
@@ -386,18 +384,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Menu.html">
+    <entry file="file://$PROJECT_DIR$/Regreso.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="155" column="61" lean-forward="false" selection-start-line="155" selection-start-column="61" selection-end-line="155" selection-end-column="61" />
+        <state relative-caret-position="414">
+          <caret line="84" column="5" lean-forward="false" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Regreso.html">
+    <entry file="file://$PROJECT_DIR$/Menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="84" column="5" lean-forward="false" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+        <state relative-caret-position="238">
+          <caret line="65" column="25" lean-forward="false" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
           <folding />
         </state>
       </provider>
